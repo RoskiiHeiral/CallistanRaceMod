@@ -1,0 +1,29 @@
+{
+  "itemName" : "metalbeersolid",
+  "rarity" : "Common",
+  "price" : 640,
+  "category" : "drink",
+  "inventoryIcon" : "metalbeersolid.png",
+  "description" : "Try delicious Metal Beer Solid.",
+  "shortdescription" : "Metal Beer Solid",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 60
+    },
+	{
+        "effect" : "ragefood",
+        "duration" : 188
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 188
+    }
+  ] ],
+  "foodValue" : 65,
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [
+    "kibble"
+  ]
+}

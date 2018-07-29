@@ -1,0 +1,32 @@
+{
+  "itemName" : "kibble",
+  "rarity" : "Common",
+  "price" : 765,
+  "category" : "preparedFood",
+  "inventoryIcon" : "kibble.png",
+  "description" : "Meat soaked in the savory goodness of Metal Beer Solid.",
+  "shortdescription" : "Kibble",
+  "effects" : [ [
+    {
+        "effect" : "ragefood",
+        "duration" : 258
+    },
+    {
+        "effect" : "regeneration4",
+        "duration" : 158
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 215
+    }
+  ] ],
+  "foodValue" : 100,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

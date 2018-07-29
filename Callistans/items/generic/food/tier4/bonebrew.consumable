@@ -1,0 +1,32 @@
+{
+  "itemName" : "bonebrew",
+  "rarity" : "Common",
+  "price" : 440,
+  "category" : "drink",
+  "inventoryIcon" : "bonebrew.png",
+  "description" : "A mulled drink made of boneboo and Callisto's blessing. Delicious!",
+  "shortdescription" : "Bone Brew",
+  "effects" : [ [
+    {
+        "effect" : "ragefood",
+        "duration" : 158
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 158
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [
+    "zodiacarrest"
+  ]
+}

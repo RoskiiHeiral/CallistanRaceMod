@@ -1,0 +1,97 @@
+{
+  "itemName" : "callistanpistol",
+  "price" : 640,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Packed with every Soma Supply Ship. Hold trigger for kill mode.",
+  "shortdescription" : "Gold Plated Soma Pistol",
+  "tooltipKind" : "base",
+  "category" : "pistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "ranged", "pistol"],
+  "level" : 1,
+  "weaponType" : "Charge Gun",
+  "inventoryIcon" : "callistanpistolicon.png",
+
+  "animation" : "callistanpistol.animation",
+  "animationParts" : {
+    "gun" : "callistanpistol.png",
+    "gunfullbright" : "callistanpistolfullbright.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_ar1.ogg" ]
+    }
+  },
+  
+  "muzzleOffset" : [1.4, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "ice",
+  
+  "primaryAbilityType" : "chargefire",
+  "primaryAbility" : {
+   /* "stances" : { //ONLY FOR 2 HANDERS
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+       "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    },*/
+
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 5,
+        "cooldown" : 0.1,
+        "projectileType" : "greenplasmabullet",
+        "projectileParameters" : {},
+        "inaccuracy" : 0.008,
+        "baseDamage" : 15,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.0,
+        "energyCost" : 40,
+        "cooldown" : 0.5,
+        "projectileType" : "plasma4green",
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 25,
+        "fireSound" : "fire2"
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,29 @@
+{
+  "itemName" : "zodiacarrest",
+  "rarity" : "Common",
+  "price" : 540,
+  "category" : "drink",
+  "inventoryIcon" : "zodiacarrest.png",
+  "description" : "Try delicious Zodiac Arrest.",
+  "shortdescription" : "Zodiac Arrest",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    },
+	{
+        "effect" : "ragefood",
+        "duration" : 158
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 158
+    }
+  ] ],
+  "foodValue" : 45,
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [
+    "metalbeersolid"
+  ]
+}

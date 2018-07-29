@@ -1,0 +1,14 @@
+{
+  "itemName" : "liquidcallisto",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "liquidcallistoicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Liquid Mechanium",
+  "description" : "Mechanium in its liquid state.",
+  "liquid" : "liquidcallisto",
+  "learnBlueprintsOnPickup" : [
+    "callistanore",
+	"calpaper"
+  ]
+}
