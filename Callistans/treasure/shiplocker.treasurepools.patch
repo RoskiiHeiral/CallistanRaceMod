@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/callistanStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+	    {"item" : [ "flashlight" ]},
+        {"item" : [ "torch", 10 ]},
+        {"item" : [ "somapistol", 1 ]},
+        {"item" : [ "metalbeersolid", 1 ]},
+        {"item" : [ "metalbeersolid", 1 ]},
+        {"item" : [ "kibble", 1 ]},
+		{"item" : [ "enforcerglasses", 1 ]},
+        {"item" : [ "kibble", 1 ]}
+      ]
+    }]]
+  }
+]

@@ -1,0 +1,47 @@
+{
+	"callistanGuardDrops" : [
+		[ 0, {
+			"pool" : [
+			        { "weight" : 0.6, "pool" : "money" },
+			        { "weight" : 0.2, "item" : [ "whitefanghead", 1 ] },
+					{ "weight" : 0.2, "item" : [ "whitefangchest", 1 ] },
+					{ "weight" : 0.2, "item" : [ "whitefangpants", 1 ] }
+			],
+			"poolRounds" : [
+				[0.8, 1],
+				[0.2, 2]
+			]
+		} ]
+	],
+	"CallistanWreckTreasure" : [
+		[ 0, {
+			"pool" : [
+				{ "weight" : 0.1, "item" : [ "callistanplush", 1 ] },
+				{ "weight" : 0.1, "item" : [ "enforcerglasses", 1 ] },
+				{ "weight" : 0.1, "item" : [ "callistanpowerlegs", 1 ] },
+				{ "weight" : 0.1, "item" : [ "hoodiechest", 1 ] }
+			],
+			"poolRounds" : [
+				[0.2, 2],
+				[0.4, 6],
+				[0.2, 10],
+				[0.2, 14]
+			],
+			"allowDuplication" : false
+		} ]
+	],
+	"fangmerctreasure" : [
+		[ 0, {
+			"pool" : [
+			        { "weight" : 0.6, "pool" : "money" },
+					{ "weight" : 0.2, "item" : [ "whitefanghead", 1 ] },
+					{ "weight" : 0.2, "item" : [ "whitefangpants", 1 ] },
+			        { "weight" : 0.2, "item" : [ "whitefangchest", 1 ] }
+			],
+			"poolRounds" : [
+				[0.8, 1],
+				[0.2, 2]
+			]
+		} ]
+	]
+}
