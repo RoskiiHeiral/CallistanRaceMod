@@ -1,0 +1,10 @@
+[
+	{ "op" : "add",
+		"path" : "/species/callistan",
+		"value" : {
+			"aiFrames" : "callistanai.png",
+			"portraitFrames" : "portraits/callistanportrait.png",
+			"staticFrames" : "staticcallistan.png"
+		}
+	}
+]

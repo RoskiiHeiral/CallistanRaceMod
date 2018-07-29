@@ -1,0 +1,11 @@
+{
+  "author" : "Roskii",
+  "description" : "Space Wolves.\n\nRequires a race extension mod like: Xbawks[community.playstarbound.com] \n\nNew Race - Callistan (loosely based on Kitsune race mod, but with several of my own enhancements. Kitsune mod used with permission.) \n\nNew Items: New Teleporter, Ship Locker, Fuel Hatch, Tech Station, Cassette Player \n\nUniversal Uncrafter- Special thanks to Wellbott for letting me use his code and put a Callistan paint job on it. Its now called a recycler and gives Blessed Liquid instead of grey goo to make new items with. \n\nSoma Explorer Ship - My favorite ship mod ever. I added it to the beginning mission so you can enter it and take off from earth. Mostly untouched, but i added its own panels and locker as well as some new assets for 1.0 compatability \n\nShip Pet Orbis - a pet that's in the game files, but unused. I really like it and thought it would be fun to have in the mod. \n\nPeglaci Pistol - I renamed it Soma Pistol(to avoid conflicts when Peglaci re-releases) Its my favorite pistol, so i wanted to give it life again. I also messed around with its speed and sounds. \n\nNew Callistan Pistol - You can craft this beauty with a soma pistol and some gold, I hope you enjoy it! \n\nOlmec Ship S.A.I.L. - Your favorite co-host from Legends of the Hidden Temple. I always enjoyed using this AI. I restored it to 1.0 compatability. Olmec's head is fairly large and detailed, so it was difficult getting it to work. I'm pretty proud of how it turned out though. \n\nDetailed Species- I used the detailed apex body alt for my race with a few tweaks. Special thanks to Moitionless!\n\nCallistan Food! Bone Brew, Zodiac Arrest, Metal Beer Solid, and Kibble. Pick up some liquid mechanium from the recycler to start the chain!\n\nSpecial Thanks to bloody for a new Callistan Flag!\nSpecial Thanks to Cari for the pretty things!\nSpecial Thanks to Zone for the new ship thingy!",
+  "friendlyName" : "Callistan Race Mod",
+  "link" : "http://community.playstarbound.com/resources/callistan-race-mod.4151/",
+  "name" : "Callistan Race Mod",
+  "path" : ".",
+  "steamContentId" : "774083065",
+  "tags" : "Species",
+  "version" : "Starbound 1.3 - Stable (Mod Version 1.3)"
+}

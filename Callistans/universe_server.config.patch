@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/callistan",
+		"value" : [
+		    "/ships/callistan/callistant0.structure",
+			"/ships/callistan/callistant1.structure",
+			"/ships/callistan/callistant2.structure",
+			"/ships/callistan/callistant3.structure",
+			"/ships/callistan/callistant4.structure",
+			"/ships/callistan/callistant5.structure",
+			"/ships/callistan/callistant6.structure",
+			"/ships/callistan/callistant7.structure",
+			"/ships/callistan/callistant8.structure"
+		]
+	}
+]

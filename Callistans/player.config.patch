@@ -1,0 +1,7 @@
+[
+{ "op" : "add", "path" : "/defaultCodexes/callistan", "value" : [ "protectorate1", "protectorate2", "callistandiary" ] },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "nightplayer" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "outpostcookingtable" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "outpostmicrowave" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "recycler" } }
+]
