@@ -1,0 +1,34 @@
+{
+  "objectName" : "callistanplush",
+  "colonyTags" : ["callistan","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "printable" : true,
+  "price" : 50,
+
+  "description" : "A cute wittle roskii plush.",
+  "shortdescription" : "Roskii Plushie",
+  "race" : "callistan",
+
+  "apexDescription" : "Their wolfness make callistans very interesting froods. This one is just a toy.",
+  "avianDescription" : "A toy of a creature with a built-in wolfiness generator. Curious...",
+  "floranDescription" : "Toy is wolfy. Iss toy a baby wolf?",
+  "glitchDescription" : "Curious. I have never seen a toy this amazingly awesomely cuddly.",
+  "humanDescription" : "A Callistan! I love those guys.",
+  "hylotlDescription" : "The Callistan is a truly inspiring creature, captured beautifully here in toy form.",
+  "novakidDescription" : "That ain't a real callistan, it's a fake.",
+
+  "inventoryIcon" : "callistanplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "callistanplush.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

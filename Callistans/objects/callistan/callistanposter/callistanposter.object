@@ -1,0 +1,28 @@
+{
+  "objectName" : "callistanposter",
+  "colonyTags" : ["callistan"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A poster with the Callistan symbol on it.",
+  "shortdescription" : "The Symbol of the White Fang",
+  "race" : "callistan",
+  "apexDescription" : "Looks menacing",
+  "avianDescription" : "The sign of an ancient god?",
+  "floranDescription" : "Hsssss Floran not care.",
+  "glitchDescription" : "Concerned.Reminds me of the great wolf-beasts of legend.",
+  "humanDescription" : "Man's best friend. Or are they???",
+  "hylotlDescription" : "How Disconcerting.",
+  "novakidDescription" : "This wolf won't hunt!",
+  "inventoryIcon" : "callistanpostericon.png",
+  "orientations" : [
+    {
+      "image" : "callistanposter.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

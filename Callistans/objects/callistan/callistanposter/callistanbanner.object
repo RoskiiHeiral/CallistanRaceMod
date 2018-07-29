@@ -1,0 +1,35 @@
+{
+  "objectName" : "callistanbanner",
+  "colonyTags" : ["callistan"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+
+  "description" : "A Callistan Wall Banner.",
+  "shortdescription" : "Callistan Wall Banner",
+  "race" : "callistan",
+
+  "apexDescription" : "This banner is disturbing...",
+  "avianDescription" : "A Callistan banner!",
+  "floranDescription" : "A Callissssstan Banner.",
+  "glitchDescription" : "Inspired. A Callistan banner...",
+  "humanDescription" : "The Callsitan banner isn't holding up too well.",
+  "hylotlDescription" : "This banner is torn. Is that intentional?",
+  "novakidDescription" : "Veeeeery Interestin.",
+
+
+  "inventoryIcon" : "callistanbannericon.png",
+  "orientations" : [
+    {
+      "image" : "callistanbanner.png:<color>",
+      "imagePosition" : [-5, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+
+    }
+  ]
+}

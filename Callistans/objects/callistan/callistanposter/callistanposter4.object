@@ -1,0 +1,28 @@
+{
+  "objectName" : "callistanposter4",
+  "colonyTags" : ["callistan"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A poster with a real Callistan hero on it.",
+  "shortdescription" : "Callistan Guile Poster",
+  "race" : "callistan",
+  "apexDescription" : "Looks menacing",
+  "avianDescription" : "The sign of an ancient god?",
+  "floranDescription" : "Sssssonic Boom!",
+  "glitchDescription" : "Inspired.Truly a great hero of legend.",
+  "humanDescription" : "Its like he's telling me to go home and be a family man...",
+  "hylotlDescription" : "How Disconcerting.",
+  "novakidDescription" : "I should go home and be a family man...",
+  "inventoryIcon" : "callistanposter4icon.png",
+  "orientations" : [
+    {
+      "image" : "callistanposter4.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

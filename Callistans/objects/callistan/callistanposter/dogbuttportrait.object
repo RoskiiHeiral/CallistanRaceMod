@@ -1,0 +1,34 @@
+{
+  "objectName" : "dogbuttportrait",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+
+  "description" : "A portrait of a lazy doggy.",
+  "shortdescription" : "Doggy Portrait",
+  "race" : "protectorate",
+
+  "apexDescription" : "A portrait of a fluffy canine. He has cute eyes.",
+  "avianDescription" : "A portrait of a fluffy mammal. He looks very comfy.",
+  "floranDescription" : "Lazy Doggy. Tasty!",
+  "glitchDescription" : "Inspired. What an adorable animal.",
+  "humanDescription" : "I wonder how many earth dogs are left.",
+  "hylotlDescription" : "A portrait of a once great predator domesticated. Such wisdom in his eyes.",
+  "novakidDescription" : "A paintin' of a fuzzy lil varmit. Cute lookin' fella.",
+
+
+  "inventoryIcon" : "dogbuttportraiticon.png",
+  "orientations" : [
+    {
+      "image" : "dogbuttportrait.png:<color>",
+      "imagePosition" : [2, 2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+
+    }
+  ]
+}

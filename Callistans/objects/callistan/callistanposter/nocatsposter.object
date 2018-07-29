@@ -1,0 +1,28 @@
+{
+  "objectName" : "nocatsposter",
+  "colonyTags" : ["callistan"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A poster with an anti-feline symbol on it.",
+  "shortdescription" : "No Cats Poster",
+  "race" : "callistan",
+  "apexDescription" : "Looks menacing",
+  "avianDescription" : "I guess avians are okay?",
+  "floranDescription" : "Hsssss Floran not care.",
+  "glitchDescription" : "Concerned. Why would they forbid felines?",
+  "humanDescription" : "Huh???",
+  "hylotlDescription" : "How Discriminating.",
+  "novakidDescription" : "They plumb don't allow cats!",
+  "inventoryIcon" : "nocatspostericon.png",
+  "orientations" : [
+    {
+      "image" : "nocatsposter.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}
