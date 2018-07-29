@@ -1,0 +1,74 @@
+{
+  "objectName" : "recycler",
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "category" : "crafting",
+  "price" : 1000,
+  "description" : "Ultimate salvaging tool, blessed by the goddess",
+  "shortdescription" : "Recycler",
+  "race" : "callistan",
+
+  "apexDescription" : "Sometimes, to grow, we must deconstruct our pasts.",
+  "avianDescription" : "I don't know how it turns wooden planks into logs again.",
+  "floranDescription" : "Ssmashes stuff for good bits! Floran approves.",
+  "glitchDescription" : "Trepidation. I hope this machine does not breakdown Glitch.",
+  "humanDescription" : "Make stuff, break stuff, make stuff, break stuff. The cycle of life.",
+  "hylotlDescription" : "Swords to plowshares. One of the few worthy teachings from that human book.",
+  "novakidDescription" : "This contraption can un-ferment whisky!? Get thee behind me, Satan!",
+
+  "state" : {
+    "kind" : "storage",
+    "openSounds" : [ "/sfx/objects/apexcooldoor_open.wav" ],
+    "closeSounds" : [ "/sfx/objects/apexcooldoor_close.wav" ],
+    "slotCount" : 9,
+    "uiconfig" : "/objects/crafting/recycler/recycler.config",
+	"containerCallback": "containerCallback"
+  },
+  "inventoryIcon" : "recyclericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "recycler.png:<color>.<frame>",
+      "imagePosition" : [-24, -8],
+      "frames" : 16,
+      "animationCycle" : 1.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+    }
+  ],
+  
+  "lightColor" : [120, 120, 120],
+
+  "flickerPeriod" : 1.2,
+  "flickerMinIntensity" : 0.4,
+  "flickerMaxIntensity" : 0.6,
+  "flickerPeriodVariance" : 0.025,
+  "flickerIntensityVariance" : 0.025,
+
+  "recipeBlacklist" : {
+	"money" : true,
+	"customsign" : true,
+	"coalore" : true
+	},
+  
+  "matterBlacklist" : {
+	"treasurehorde" : true,
+	"alienstripedwood" : true,
+	"supermatter" : true,
+	"rainbowwoodblock" : true,
+	"coconutblock" : true,
+	"bookpiles" : true,
+	"darkwoodmaterial" : true
+	},
+  
+  "scripts" : [ "/scripts/vec2.lua", "recycler.lua"],
+  "scriptDelta" : 1,
+  "openSounds" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+  "slotCount" : 9,
+  "containerCallback": "containerCallback",
+  "uiConfig" : "/objects/crafting/recycler/recycler.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 36000
+}

@@ -1,0 +1,75 @@
+{
+  "objectName" : "nightplayer",
+  "colonyTags" : ["callistan","callistanvillage","musical"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 105,
+  "lightColor" : [0, 0, 0],
+
+  "description" : "The peak of big fur music. The night will never be done shining!",
+  "shortdescription" : "Cassette Player",
+  "race" : "callistan",
+
+  "apexDescription" : "This record is rumoured to contain subliminal messaging.",
+  "avianDescription" : "This machine emits many high pitched, barely audible sounds.",
+  "floranDescription" : "Floran masters of drum and rhythm, but Apex second best.",
+  "glitchDescription" : "Focused. Music demonstrates a lack of musical theory. Contains messages.",
+  "humanDescription" : "Is this what passes for music here?",
+  "hylotlDescription" : "The sound of oppression.",
+  "novakidDescription" : "A device that plays music.",
+
+  "inventoryIcon" : "nightplayericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "nightplayer.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "image" : "nightplayer.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+
+    }
+  ],
+
+  "animation" : "nightplayer.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/interface/scan.ogg" ],
+      "off" : [ "/sfx/interface/scan.ogg" ]
+    }
+  },
+
+  "scripts" : [
+    "/objects/wired/light/light.lua",
+    "/scripts/npcToyObject.lua",
+    "/objects/human/jukebox/jukebox.lua"
+  ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 2] ],
+
+  "npcToy" : {
+    "influence" : [
+      "music",
+      "music",
+      "music",
+      "musicFinished"
+    ],
+    "defaultReactions" : {
+      "musicFinished" : [
+        [1.0, "smile"],
+        [1.0, "laugh"]
+      ]
+    },
+    "randomStandXRange" : [-8, 8]
+  },
+
+  "defaultLightState" : false,
+
+  "soundEffect" : "/sfx/objects/nightshine.ogg",
+  "soundEffectRangeMultiplier" : 1.0
+}
