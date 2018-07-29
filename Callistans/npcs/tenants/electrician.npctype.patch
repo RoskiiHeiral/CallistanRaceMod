@@ -1,0 +1,12 @@
+[
+	{
+		"op": "add", "path": "/scriptConfig/dialog/converse/callistan",
+		"value": {
+			"default": [
+				"Howdy, here to keep yer shit safe to handle.",
+				"This suit's not fer lookin' good, but fer insulation.",
+				"Ya git any exposed cables? No, no ya don't."
+			]
+		}
+	}
+]

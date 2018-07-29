@@ -1,0 +1,27 @@
+{
+	"type" : "fangmerc",
+	"baseType" : "hostile",
+	"levelVariance" : [-0.5, -0.5],
+	"persistent" : true,
+	"scriptConfig" : {
+		"dialog" : {
+			"attack" : "/dialog/callistan.config:fangmerc_attack"
+		}
+	},
+	"items" : {
+		"default" : [
+			[0, [
+					{
+						"chest" : [ { "name" : "whitefangchest" } ],
+						"legs" : [ { "name" : "whitefangpants" } ],
+						"head" : [ { "name" : "whitefanghead" } ],
+						"primary" : [
+							"npcpistol"
+						]
+
+					}
+				] ]
+		]
+	},
+	"dropPools" : [ "banditTreasure" ]
+}

@@ -1,0 +1,53 @@
+[
+	{
+		"op": "add",
+		"path": "/items/callistan",
+		"value": [
+			[
+				0,
+				[
+					{
+						"head": [
+							{ "name": "whitefanghead" },
+							{ "name": "enforcerglasses" }
+						],
+						"chest": [
+							{ "name": "apextier4chest", "data": { "colorIndex": [1,2,3,4,5,6,7,8,9,10] } },
+							{ "name": "whitefangchest", "data": { "colorIndex": [1,2,3,4,5,6,7,8,9,10] } }
+						],
+						"legs": [
+							{ "name": "callistanpowerlegs", "data": { "colorIndex": [1,2,3,4,5,6,7,8,9,10] } },
+							{ "name": "whitefangpants", "data": { "colorIndex": [1,2,3,4,5,6,7,8,9,10] } }
+						],
+						"primary": [
+							{ "name": "npcbroadsword" }
+						],
+						"sheathedprimary": [
+							{ "name": "npcpistol" }
+						]
+					},
+					{
+						"head": [
+							{ "name": "whitefanghead" },
+							{ "name": "enforcerglasses" }
+						],
+						"chest": [
+							{ "name": "apextier4chest", "data": { "colorIndex": [1,2,3,4,5,6,7,8,9,10] } },
+							{ "name": "whitefangchest", "data": { "colorIndex": [1,2,3,4,5,6,7,8,9,10] } }
+						],
+						"legs": [
+							{ "name": "callistanpowerlegs", "data": { "colorIndex": [1,2,3,4,5,6,7,8,9,10] } },
+							{ "name": "whitefangpants", "data": { "colorIndex": [1,2,3,4,5,6,7,8,9,10] } }
+						],
+						"primary": [
+							{ "name": "npcbroadsword" }
+						],
+						"sheathedprimary": [
+							{ "name": "npcpistol" }
+						]
+					}
+				]
+			]
+		]
+	}
+]

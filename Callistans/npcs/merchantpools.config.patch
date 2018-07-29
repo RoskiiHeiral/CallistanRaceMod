@@ -1,0 +1,42 @@
+[
+	{ "op" : "add",
+		"path" : "/callistanfood",
+		"value" : [
+			[ 0, [
+				{ "item": { "name": "zodiacarrest" }, "rarity" : 0.05 },
+				{ "item": { "name": "metalbeersolid" }, "rarity" : 0.05 },
+				{ "item": { "name": "cheese" }, "rarity" : 0.05 },
+				{ "item": { "name": "kibble" }, "rarity" : 0.05 },
+				{ "item": { "name": "wheat" }, "rarity" : 0.05 },
+				{ "item": { "name": "bonebrew" }, "rarity" : 0.05 }
+			] ]
+		]
+	},
+	{ "op" : "add",
+		"path" : "/callistanguns",
+		"value" : [
+			[ 0, [
+				{ "item": { "name": "somapistol" }, "rarity" : 0.05 },
+				{ "item": { "name": "callistanpistol" }, "rarity" : 0.05 },
+				{ "item": { "name": "enforcerglasses" }, "rarity" : 0.05 },
+				{ "item": { "name": "contacts" }, "rarity" : 0.05 },
+				{ "item": { "name": "whitefanghead" }, "rarity" : 0.05 },
+				{ "item": { "name": "whitefangchest" }, "rarity" : 0.05 },
+				{ "item": { "name": "whitefangpants" }, "rarity" : 0.05 }
+			] ]
+		]
+	},
+	{ "op" : "add",
+		"path" : "/callistanfurniture",
+		"value" : [
+			[ 0, [
+				{ "item": { "name": "nightplayer" }, "rarity" : 0.05 },
+				{ "item": { "name": "recycler" }, "rarity" : 0.05 },
+				{ "item": { "name": "callistanbed" }, "rarity" : 0.05 },
+				{ "item": { "name": "callistanplush" }, "rarity" : 0.05 },
+				{ "item": { "name": "callistantoolbox" }, "rarity" : 0.05 },
+				{ "item": { "name": "callistangamesconsole" }, "rarity" : 0.05 }
+			] ]
+		]
+	}
+]

@@ -1,0 +1,26 @@
+[
+	{
+		"op" : "add",
+		"path" : "/items/callistan",
+		"value" : [
+			[0,
+				[
+					{
+						"head" : [
+							{ "name" : "enforcerglasses", "parameters" : { "colorIndex" : 0 } }
+						],
+						"chest" : [
+							{ "name" : "traineechest", "parameters" : { "colorIndex" : 5 } }
+						],
+						"legs" : [
+							{ "name" : "callistanpowerlegs", "parameters" : { "colorIndex" : 5 } }
+						],
+						"primary" : [
+							{ "name" : "pickaxe" }
+						]
+					}
+				]
+			]
+		]
+	}
+]

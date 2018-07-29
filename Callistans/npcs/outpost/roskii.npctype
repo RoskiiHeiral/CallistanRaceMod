@@ -1,0 +1,44 @@
+{
+	"type" : "roskii",
+	"baseType" : "outpostvisitor",
+	"identity" : {
+		"name" : "Roskii",
+		"hairType" : "male15",
+		"gender" : "male",
+		"hairGroup" : "hair",
+		"bodyDirectives" : "?replace=f7e7b2=e1b98d?replace=d9c189=c88959?replace=a38d59=9e6a4d?replace=735e3a=784930?replace?replace=ffca8a=e3d7ae?replace=e0975c=ccc19c?replace=a85636=ada485?replace=6f2919=887f5f",
+		"emoteDirectives" : "?replace;f7e7b2=e1b98d?replace=d9c189=c88959?replace=a38d59=9e6a4d?replace=735e3a=784930?replace=ffca8a=e3d7ae?replace=e0975c=ccc19c?replace=a85636=ada485?replace=6f2919=887f5f",
+		"hairDirectives" : "?replace=735e3a=828282?replace=d9c189=eaeaea?replace=a38d59=b8b8b8?replace=f7e7b2=914b35"
+	},
+	"scriptConfig" : {
+		"dialog" : {
+			"converse" : {
+				"default" : {
+					"default" : [
+						"-low growls-"
+					],
+					"callistan" : [
+						"Arf~ Nice to meetcha, I'm Roskii!"
+					]
+				}
+			}
+		}
+	},
+	"items" : {
+		"override" : [
+			[0, [
+					{
+						"head" : [
+							{ "name" : "enforcerglasses", "data" : { "colorIndex" : 1 } }
+						],
+						"chest" : [
+							{ "name" : "hoodiechest", "data" : { "colorIndex" : 2 } }
+						],
+						"legs" : [
+							{ "name" : "callistanpowerlegs", "data" : { "colorIndex" : 1 } }
+						]
+					}
+				] ]
+		]
+	}
+}

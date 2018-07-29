@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/callistan",
+    "value": [
+      "Floran happy to know wolgy friend alssso here.",
+	  "Not many Florans become Protectorsss. Wolf friend makesss Floran feel better about it.",
+	  "Wolfy ssssay Bark! Bark!"
+    ]
+  }
+]

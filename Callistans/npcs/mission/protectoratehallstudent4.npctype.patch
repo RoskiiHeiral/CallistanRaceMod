@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/callistan",
+    "value": [
+      "Hey <entityname>! You'd think one of the first Callistan to become a Protector would be on time!",
+      "You should really consider setting a good example for the rest of your people, wolfy.",
+      "You don't look half bad, for having just woken up! I just wanna nuzzle that shaggy hair"
+    ]
+  }
+]

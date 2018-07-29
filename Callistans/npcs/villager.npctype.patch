@@ -1,0 +1,34 @@
+[
+	/*
+	{ "op" : "replace",
+		"path" : "/levelVariance",
+		"value" : [ 0, 0 ]
+	},
+	*/
+	{ "op" : "add",
+		"path" : "/items/callistan",
+		"value" : [
+			[0, [
+				{
+					"chest" : [
+						{ "name" : "hunterchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "protectorateshirtchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "protectoratehoodiechest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "monkchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "novakidfancychest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "kimonochest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "traineechest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+						],
+					"legs" : [
+						{ "name" : "deadbeatleatherlegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "callistanpowerlegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "traineelegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "kimonolegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "protectoratepants", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "novakidfancypants", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					]
+				}
+			] ]
+		]
+	}
+]

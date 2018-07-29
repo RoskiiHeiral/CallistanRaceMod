@@ -1,0 +1,48 @@
+[
+	{
+		"op": "add",
+		"path": "/scriptConfig/merchant/categories/callistan",
+		"value": [
+			"genericarmour",
+			"basicmerchant",
+			"randomguns",
+			"randomswords",
+			"callistanguns",
+			"callistanfurniture",
+			"callistanfood"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/items/callistan",
+		"value": [
+			[0, [
+				{
+					"chest" : [
+						{ "name" : "hoodiechest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					],
+					"legs" : [
+						{ "name" : "callistanpowerlegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					]
+				},
+				{
+					"chest" : [
+						{ "name" : "hoodiechest2", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					],
+					"legs" : [
+						{ "name" : "callistanpowerlegs", "data" : { "colorIndex" : [0,1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "whitefangpants", "data" : { "colorIndex" : [0,1,2,3,4,5,6,7,8,9,10] } }
+					]
+				},
+				{
+					"chest" : [
+						{ "name" : "whitefangchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					],
+					"legs" : [
+						{ "name" : "whitefangpants", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					]
+				}
+			] ]
+		]
+	}
+]
