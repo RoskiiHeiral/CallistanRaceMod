@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "callistanbar", "count" : 5 },
+    { "item" : "refinedaegisalt", "count" : 5 },
+    { "item" : "salvagetier4", "count" : 1 } 
+  ],
+  "duration" : 5,
+  "output" : { "item" : "callistanblaster", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

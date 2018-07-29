@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "callistanbar", "count" : 3 }
+
+  ],
+  "output" : { "item" : "callistancolonydeed", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

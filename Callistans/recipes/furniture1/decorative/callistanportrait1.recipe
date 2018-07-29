@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "calpaper", "count" : 5 }
+
+  ],
+  "output" : { "item" : "callistanportrait1", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

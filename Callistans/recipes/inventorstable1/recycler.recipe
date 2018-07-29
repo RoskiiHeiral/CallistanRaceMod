@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 5 },
+	{ "item" : "silverbar", "count" : 3 },
+    { "item" : "goldbar", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "recycler",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "objects", "craftingstations", "all", "mod"]
+}

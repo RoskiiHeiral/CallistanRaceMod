@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "callistanore", "count" : 2 }
+  ],
+  "output" : { "item" : "callistanbar", "count" : 1 },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace", "bars", "all" ]
+}

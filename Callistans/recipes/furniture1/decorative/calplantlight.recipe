@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "callistanbar", "count" : 1 },
+    { "item" : "livingroot", "count" : 1 }
+
+  ],
+  "output" : { "item" : "calplantlight", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

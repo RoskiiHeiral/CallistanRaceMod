@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "callistanbar", "count" : 1 },
+    { "item" : "smallbattery", "count" : 1 },
+    { "item" : "wire", "count" : 5 }
+  ],
+  "output" : { "item" : "callistanshipdoor", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "doors", "all" ]
+}

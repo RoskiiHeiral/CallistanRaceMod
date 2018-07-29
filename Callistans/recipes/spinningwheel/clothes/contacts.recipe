@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "contacts", "count" : 1 },
+  "groups" : [ "craftingwheel", "clothes" ]
+}

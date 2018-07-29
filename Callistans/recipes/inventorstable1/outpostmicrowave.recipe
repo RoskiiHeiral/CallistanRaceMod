@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 3 },
+    { "item" : "salvagetier4", "count" : 1 },
+    { "item" : "callistanbar", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "outpostmicrowave",
+    "count" : 1
+  },
+  "duration" : 5,
+  "groups" : [ "inventorstable2", "craftingstations", "all" ]
+}

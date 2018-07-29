@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "metalbeersolid", "count" : 1 },
+    { "item" : "alienmeat", "count" : 1 }
+  ],
+  "output" : { "item" : "kibble", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]
+}

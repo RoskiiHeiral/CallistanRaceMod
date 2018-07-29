@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "liquidcallisto", "count" : 5 }
+  ],
+  "output" : { "item" : "callistanore", "count" : 1 },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace", "bars", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "zodiacarrest", "count" : 1 },
+    { "item" : "boltbulb", "count" : 1 }
+  ],
+  "output" : { "item" : "metalbeersolid", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]
+}

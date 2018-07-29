@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "liquidcallisto", "count" : 5 },
+	{ "item" : "paper", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "calpaper",
+    "count" : 5
+  },
+  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+}

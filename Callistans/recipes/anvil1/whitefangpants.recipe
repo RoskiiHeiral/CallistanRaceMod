@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "callistanbar", "count" : 3 },
+    { "item" : "refinedaegisalt", "count" : 3 },
+    { "item" : "salvagetier4", "count" : 1 } 
+  ],
+  "duration" : 5,
+  "output" : { "item" : "whitefangpants", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}
