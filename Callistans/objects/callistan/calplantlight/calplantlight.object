@@ -1,0 +1,55 @@
+{
+  "objectName" : "calplantlight",
+  "colonyTags" : ["callistan","light"],
+  "rarity" : "Common",
+  "description" : "A plant-based genetic experiment. What could go wrong?",
+  "shortdescription" : "Callistan Plant Light",
+  "race" : "callistan",
+
+  "apexDescription" : "An experiment of some sort.",
+  "avianDescription" : "A plant that lights up. Remarkable.",
+  "floranDescription" : "Plant lightss not burn Floran.",
+  "glitchDescription" : "Impressed. The Callistans are able to harness nature most effectively.",
+  "humanDescription" : "This light looks like it was grown, not made.",
+  "hylotlDescription" : "Oh god... More plants...",
+  "novakidDescription" : "This plant can sure gives off some light.",
+
+  "category" : "light",
+  "price" : 90,
+  "lightColor" : [120, 179, 89],
+
+  "inventoryIcon" : "calplantlighticon.png",
+  
+  "orientations" : [
+    {
+      "image" : "calplantlight.png:<color>.<frame>",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 3]
+    },
+    {
+      "image" : "calplantlight.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [0, 3]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "calplantlight.png",
+    "fg" : "calplantlightlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [
+   "/objects/wired/light/light.lua", "/objects/spawner/calPetSpawner.lua" ],
+  "scriptDelta" : 5,
+  "shipPetType" : "groot",
+  "spawnOffset" : [0, 2]
+}

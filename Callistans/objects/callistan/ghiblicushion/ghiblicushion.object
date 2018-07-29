@@ -1,0 +1,27 @@
+{
+	"objectName" : "ghiblicushion",
+	"colonyTags" : [ "callistan", "callistanvillage" ],
+	"rarity" : "Common",
+	"objectType" : "loungeable",
+	"description" : "It's a beanbag chair!",
+	"shortdescription" : "Buddy cushion seat",
+	"glitchDescription" : "Appreciative. A beanbag chair.",
+	"race" : "callistan",
+	"category" : "furniture",
+	"price" : 75,
+	"inventoryIcon" : "ghiblicushionicon.png",
+	"retainObjectParametersInItem" : true,
+	"orientations" : [
+		{
+			"leftImage" : "ghiblicushion.png:<color>.0",
+			"rightImage" : "ghiblicushion.png:<color>.1",
+			"imagePosition" : [-12, 0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	"sitFlipDirection" : false,
+	"sitPosition" : [1, 22]
+}

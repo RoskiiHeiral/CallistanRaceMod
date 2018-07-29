@@ -1,0 +1,28 @@
+{
+  "objectName" : "callistantoolbox",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : true,
+
+  "description" : "A very robust looking tool box.",
+  "shortdescription" : "Callistan Toolbox",
+  "race" : "callistan",
+
+  "floranDescription" : "Red toolbox useful! Big, heavy and makesss great blunt weapon.",
+  "glitchDescription" : "Observant. A highly robust tool box.",
+
+  "inventoryIcon" : "callistantoolboxicon.png",
+  "orientations" : [
+    {
+      "image" : "callistantoolbox.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+
+    }
+  ]
+}
