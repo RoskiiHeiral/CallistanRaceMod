@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "groot",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "groot.png"
+  }
+}
