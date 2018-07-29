@@ -1,0 +1,15 @@
+[
+	{
+		"op": "add", "path" : "/0/1/-",
+		"value" :
+		[
+			[ "generic" ],
+			{
+				"name" : "white fang mercenary",
+				"species" : "callistan",
+				"typeName" : "fangmerc",
+				"seed" : "stable"
+			}
+		]
+	}
+]

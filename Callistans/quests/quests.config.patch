@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/callistan",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/callistan",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

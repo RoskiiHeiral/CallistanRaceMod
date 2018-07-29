@@ -1,0 +1,14 @@
+[
+	{
+		"op": "add", "path" : "/0/1/-",
+		"value" :
+		[
+			[ "generic" ],
+			{
+				"name" : "band of white fang mercenaries",
+				"species" : "callistan",
+				"typeName" : "fangmerc"
+			}
+		]
+	}
+]
