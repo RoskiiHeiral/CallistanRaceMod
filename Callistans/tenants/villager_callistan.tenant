@@ -1,0 +1,21 @@
+{
+	"name": "villager_callistan",
+	"priority": 2,
+	"colonyTagCriteria": {
+		"light": 1,
+		"door": 1,
+		"callistan": 6
+	},
+	"tenants": [
+		{
+			"spawn": "npc",
+			"species": "callistan",
+			"type": "generictenant",
+			"overrides": { }
+		 }
+	 ],
+	"rent": {
+		"periodRange": [900.0, 1800.0],
+		"pool": "villagerGift"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"name": "merchant_callistan",
+	"priority": 4,
+	"colonyTagCriteria": {
+		"light": 1,
+		"door": 1,
+		"callistan": 8,
+		"storage": 8,
+		"commerce": 8
+	},
+	"tenants": [
+		{
+			"spawn": "npc",
+			"species": "callistan",
+			"type": "merchanttenant",
+			"overrides": { }
+		}
+	],
+	"rent": {
+		"periodRange": [900.0, 1800.0],
+		"pool": "merchantGift"
+	}
+}
